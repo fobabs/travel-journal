@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  color: #FFFFFF;
+  height: 55px;
+  gap: 7px;
+}
+.header-icon {
+  color: #DADADA;
+  font-size: 24px;
+}
+
+main {
+  padding: 3rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* height: 168px; */
+}
+
+.card-details {
+  justify-content: flex-start;
+  width: 70%;
+}
+
+.card-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card-image {
+  border-radius: 5px;
+  width: 100%;
+  height: fit-content;
+  height: auto;
+  object-fit: contain;
+}
+.card-date {
+  font-size: 10px;
+  font-weight: bold;
+}
+.card-country {
+  letter-spacing: 17%;
+}
+.card-story {
+  font-size: 1.2rem;
+  /* font-weight: bold; */
+}
+
+.icon {
+  color: #F55A5A;
+}
+
+figure {
+  flex: 1;
+}

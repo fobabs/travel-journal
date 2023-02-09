@@ -1,0 +1,25 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #2B283A;
+  background-color: #F5F5F5;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  color: #918E9B;
+  text-decoration: underline;
+}
+a:hover {
+  color: #615f68;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
