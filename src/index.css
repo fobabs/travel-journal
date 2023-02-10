@@ -1,10 +1,12 @@
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 24px;
   font-weight: 400;
   color: #2B283A;
   background-color: #F5F5F5;
+  max-width: 1280px;
+  margin: auto;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -12,6 +14,7 @@
 a {
   color: #918E9B;
   text-decoration: underline;
+  margin-left: 12px;
 }
 a:hover {
   color: #615f68;
@@ -22,4 +25,8 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
+}
+
+main {
+  padding: 3rem;
 }

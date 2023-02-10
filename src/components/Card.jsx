@@ -13,7 +13,18 @@ export default function Card(data) {
             icon={faLocationDot}
             className="card-country_location--icon"
           />
-          {data.country.toUpperCase()}
+          <span className="card-country_name">
+            {data.country.toUpperCase()}
+          </span>
+          <a
+            href={`https://www.google.com/maps/place/${data.title.replace(
+              " ",
+              "+"
+            )}`}
+            target="_blank"
+          >
+            View on Google Maps
+          </a>
         </p>
         <h1 className="card-title">{data.title}</h1>
         <p className="card-date">{data.date}</p>
