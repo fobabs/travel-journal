@@ -1,6 +1,7 @@
-#root {
+:root {
   max-width: 1280px;
   margin: 0 auto;
+  --primary-color: #F55A5A;
 }
 
 .header {
@@ -8,7 +9,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #F55A5A;
+  background-color: var(--primary-color);
   color: #FFFFFF;
   height: 55px;
   gap: 7px;
@@ -51,7 +52,12 @@ main {
   font-weight: bold;
 }
 .card-country {
-  letter-spacing: 17%;
+  letter-spacing: 0.17em;
+}
+.card-country_location--icon {
+  font-size: 10px;
+  margin-right: 4px;
+  color: var(--primary-color);
 }
 .card-story {
   font-size: 1.2rem;
@@ -59,7 +65,7 @@ main {
 }
 
 .icon {
-  color: #F55A5A;
+  color: var(--primary-color);
 }
 
 figure {
