@@ -18,7 +18,7 @@ export default function Card(data) {
           </span>
           <a
             href={`https://www.google.com/maps/place/${data.title.replace(
-              " ",
+              /\s/g,
               "+"
             )}`}
             target="_blank"
