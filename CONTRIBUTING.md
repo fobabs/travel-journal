@@ -1,4 +1,4 @@
-# Contributing to Date Picker
+# Contributing to Travel Journal
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
@@ -23,7 +23,7 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 5. Make sure your code lints.
 6. Issue that pull request!
 
-## Report bugs using Github's [issues](https://github.com/fobabs/date-picker/issues)
+## Report bugs using Github's [issues](https://github.com/fobabs/travel-journal/issues)
 
 We use GitHub issues to track public bugs. Report a bug by *opening a new issue*; it's that easy!
 
